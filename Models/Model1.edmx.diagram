@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="522e03d42afb4c39847ac3df028beda7" Name="Diagram1">
+        <EntityTypeShape EntityType="QLDatPhongKhachSanModel.Booking" Width="1.5" PointX="4.875" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDatPhongKhachSanModel.ChiTietBooking" Width="1.5" PointX="4.875" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDatPhongKhachSanModel.DonGia" Width="1.5" PointX="5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDatPhongKhachSanModel.KhachHang" Width="1.5" PointX="2.375" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDatPhongKhachSanModel.LoaiPhong" Width="1.5" PointX="1.875" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLDatPhongKhachSanModel.Phong" Width="1.5" PointX="1.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="QLDatPhongKhachSanModel.FK_Booking_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDatPhongKhachSanModel.FK_ChiTietBooking_Booking" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDatPhongKhachSanModel.FK_ChiTietBooking_Phong" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDatPhongKhachSanModel.FK_DonGia_LoaiPhong" ManuallyRouted="false" />
+        <AssociationConnector Association="QLDatPhongKhachSanModel.FK_Phong_LoaiPhong" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
